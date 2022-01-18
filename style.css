@@ -1,0 +1,188 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header-img{
+    position: relative;
+    height: 400px;
+    width: 100vw;
+    background-image:url("https://www.lironboylston.com/wp-content/uploads/2020/12/WBC_7095.jpg"), linear-gradient(to right, rgba(0,0,0,4), rgba(0,0,0,6));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity:90%;
+}
+header{
+    width: 100vw;
+    height: 60px;
+}
+.nav{
+    width: 30vw;
+    height: 60px;   
+}
+.nav a{
+    text-decoration: none;
+}
+.zomato{
+    display: block;
+    font-weight: bolder;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-flex{
+    margin-top: 100px;
+}
+.nav {
+    color: white;
+    justify-content:flex-end;
+    font-weight: normal;
+    margin-left: 40%;
+}
+.nav-link{
+    border-bottom: 0px solid black;
+    transition: border-bottom 0.5s;
+    cursor: pointer;
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+}
+.search-box{
+    width: 30vw;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    padding-left: 20px;
+    outline: none;
+    font-weight:bold;
+    font-size: 18px;
+}
+.search-btn{
+    width: 130px;
+    background-color: red;
+    color: white;
+    border:none;
+    border-bottom-right-radius:10px;
+    border-top-right-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#second-section{
+    margin:50px 0px 50px 0px;
+}
+.card{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    border:2px sloid black;
+    border-radius: 10px;
+    box-sizing: 1px 1px 10px black;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    margin-bottom: 10px;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px #000;
+    cursor: pointer;
+}
+.card-bottom{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-top:150px;
+}
+#location{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.heading{
+    font-size: 40px;
+    color: black;
+}
+.heading b{
+    color: red;
+}
+.location-div{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.location-div:hover{
+    box-shadow: 1px 1px 5px black;
+}
+#app{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+    color:gray;
+}
+.email{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid white;
+    outline:1px solid black;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    background-color: white;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    outline:1px solid crimson;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.app-img{
+    margin-left: 5px;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 1.5rem;
+    color:black;
+    padding:1rem 0;
+    margin-left: 5px;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    color:black;
+    padding:1rem 0;
+    text-decoration: none;
+    margin-left: 5px
+}
+
+.footer .box-container .box a i{
+    color:black;
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+
+
+
+
